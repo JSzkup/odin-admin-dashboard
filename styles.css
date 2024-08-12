@@ -19,5 +19,20 @@ body {
 
 .header {
     grid-column: 2 / -1;
-    grid-row: 1 / -1;
+    grid-row: 1;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2/ -1;
+}
+
+.announcements {
+    grid-column: 3;
+    grid-row: 2
+}
+
+.trending {
+    grid-column: 3;
+    grid-row: 3;
 }
