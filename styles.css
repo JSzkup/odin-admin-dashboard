@@ -2,5 +2,22 @@
     margin: 0;
     padding: 0;
     /* change to Roboto from Google Fonts */
-    font-family: "Arial";
+    /* font-family: "Arial"; */
+}
+
+body {
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+
+.header {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
 }
