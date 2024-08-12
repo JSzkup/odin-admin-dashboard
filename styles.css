@@ -9,22 +9,59 @@ body {
     display: grid;
 
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: .5fr 1fr 1fr;
 }
 
 .sidebar {
     grid-column: 1;
     grid-row: 1 / 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .header {
     grid-column: 2 / -1;
     grid-row: 1;
+
+    display: grid;
+
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#search-bar {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#profile {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#user-greeting {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#user-upload {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .content {
     grid-column: 2;
     grid-row: 2/ -1;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 15px;
 }
 
 .announcements {
