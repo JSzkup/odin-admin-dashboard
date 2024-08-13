@@ -69,6 +69,13 @@ body {
     gap: 15px;
 }
 
+.project-cards {
+    grid-column: 1;
+    grid-row: 1 / -1;
+
+    margin: 15px;
+}
+
 .announcements {
     grid-column: 2;
     grid-row: 1
