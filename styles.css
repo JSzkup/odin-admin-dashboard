@@ -12,6 +12,10 @@ body {
     grid-template-rows: .5fr 1fr 1fr;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .sidebar {
     grid-column: 1;
     grid-row: 1 / 4;
@@ -20,6 +24,10 @@ body {
     grid-template-rows: 1fr 1fr 1fr 2fr;
 
     gap: 10px;
+}
+
+.sidebar>* {
+    margin-left: 30px;
 }
 
 .header {
@@ -69,6 +77,12 @@ body {
     gap: 15px;
 }
 
+.card {
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 150px;
+}
+
 .project-cards {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -78,10 +92,20 @@ body {
 
 .announcements {
     grid-column: 2;
-    grid-row: 1
+    grid-row: 1;
+
+    border: 3px solid black;
+    margin-right: 15px;
+    padding: 15px;
+
 }
 
 .trending {
     grid-column: 2;
     grid-row: 2;
+
+    border: 3px solid black;
+    margin-right: 15px;
+    padding: 15px;
+
 }
