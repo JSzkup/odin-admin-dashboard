@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* change to Roboto from Google Fonts */
-    font-family: "Arial";
+    font-family: "Roboto";
 }
 
 body {
+
+    height: 100vh;
+
     display: grid;
 
     grid-template-columns: 1fr 2fr 1fr;
@@ -91,7 +93,7 @@ ul {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
 }
 
 .card,
@@ -136,6 +138,10 @@ ul {
     padding: 15px;
 }
 
+.announcements p {
+    font-size: .9rem;
+}
+
 .announcement-container {
     border: 3px solid black;
     border-radius: 8px;
@@ -159,4 +165,18 @@ ul {
     padding: 15px;
 
     background-color: white;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: .5fr 4fr;
+}
+
+.user img {
+    grid-column: 1;
+}
+
+.user h3,
+p {
+    grid-column: 2;
 }
