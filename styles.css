@@ -100,6 +100,37 @@ ul {
     gap: 20px;
 }
 
+#user-greeting {
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: .6fr 1fr;
+}
+
+#user-greeting img {
+    grid-column: 1;
+    grid-row: 1/3;
+
+    height: 75px;
+    width: 100%;
+
+    justify-self: center;
+    align-self: center;
+}
+
+#user-greeting p {
+    grid-column: 2;
+    align-self: end;
+}
+
+#user-greeting h1 {
+    grid-column: 2;
+    align-self: start;
+
+    font-size: 1.5rem;
+
+}
+
 .header-items button {
     color: white;
     font-size: 1.1rem;
