@@ -151,6 +151,8 @@ ul {
 
 .content-title {
     margin-bottom: 10px;
+
+    font-size: 1.2rem;
 }
 
 .projects {
@@ -189,8 +191,20 @@ ul {
     padding: 15px;
 }
 
-.announcements p {
-    font-size: .9rem;
+.announcement-items:nth-child(even) {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.announcement-items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: .8rem;
 }
 
 .announcement-container {
@@ -220,11 +234,15 @@ ul {
     display: grid;
     grid-template-columns: .5fr 4fr;
     height: 50px;
+
+    font-size: .8rem;
 }
 
 .user img {
     grid-column: 1;
-    grid-row: 1 / 3
+    grid-row: 1 / 3;
+
+    height: 50px;
 }
 
 .user h3,
