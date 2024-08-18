@@ -20,7 +20,7 @@ ul {
 
 .sidebar {
     /* Sky color palette tailwind */
-    background-color: #38bdf8;
+    background-color: #0ea5e9;
 
     grid-column: 1;
     grid-row: 1 / 4;
@@ -60,6 +60,19 @@ ul {
 .header-items input {
     width: 80%;
     border-radius: 10px;
+}
+
+.header-items button {
+    color: white;
+    font-size: 1.1rem;
+
+    background-color: #0ea5e9;
+    border: 0px;
+    border-radius: 100px;
+
+    padding: 5px;
+    width: 100px;
+    height: 40px;
 }
 
 #search-bar {
@@ -115,7 +128,7 @@ ul {
 }
 
 .card {
-    border-left: 5px solid orange;
+    border-left: 5px solid #fb923c;
     border-radius: 5px;
     height: 150px;
 
