@@ -83,7 +83,21 @@ ul {
 }
 
 #search-bar {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: .7rem;
+
     margin: 15px;
+    gap: 20px;
 }
 
 .header-items button {
@@ -104,6 +118,7 @@ ul {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    margin: 15px;
 }
 
 #search-bar {
