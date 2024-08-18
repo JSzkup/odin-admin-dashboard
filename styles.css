@@ -16,6 +16,7 @@ body {
 
 ul {
     list-style-type: none;
+    color: white;
 }
 
 .sidebar {
@@ -38,6 +39,16 @@ ul {
 .sidebar-items {
     font-size: 1.5rem;
     padding-bottom: 40px;
+}
+
+
+.sidebar img {
+    filter: invert(1);
+    padding-right: 20px;
+}
+
+.sidebar h1 {
+    color: white;
 }
 
 .header {
