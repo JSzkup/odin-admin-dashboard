@@ -36,6 +36,10 @@ ul {
     margin-left: 30px;
 }
 
+.sidebar>h1 img {
+    margin-top: 17px;
+}
+
 .sidebar-items {
     font-size: 1.5rem;
     padding-bottom: 40px;
@@ -70,7 +74,16 @@ ul {
 
 .header-items input {
     width: 80%;
-    border-radius: 10px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #d9e2ef;
+    height: 2rem;
+
+    margin: 10px;
+}
+
+#search-bar {
+    margin: 15px;
 }
 
 .header-items button {
@@ -84,6 +97,12 @@ ul {
     padding: 5px;
     width: 100px;
     height: 40px;
+}
+
+#user-upload {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 #search-bar {
@@ -107,7 +126,7 @@ ul {
 }
 
 .content {
-    background-color: #f0f9ff;
+    background-color: #d9e2ef;
     padding: 15px;
 
     position: relative;
@@ -148,6 +167,10 @@ ul {
     background-color: white;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
 .project-cards {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -167,7 +190,6 @@ ul {
 }
 
 .announcement-container {
-    border: 3px solid black;
     border-radius: 8px;
 
     padding: 15px;
@@ -183,7 +205,6 @@ ul {
 }
 
 .trending-users {
-    border: 3px solid black;
     border-radius: 8px;
 
     padding: 15px;
